@@ -9,8 +9,8 @@ import java.util.Map;
 
 public class SpringApplicationXml {
     public static void main(String[] args) {
-        ApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationApplication.class);
-        Facture facture = context.getBean(Facture.class);
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationApplication.class);
+        Facture facture = context.getBean("maFacture",Facture.class);
         Map<String, Integer> consommation = new HashMap<>();
         consommation.put("boissons ", 10);
         consommation.put("repas", 20);

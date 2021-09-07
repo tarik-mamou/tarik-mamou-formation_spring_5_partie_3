@@ -2,7 +2,8 @@
 <Configuration status="WARN" monitorInterval="30">
     <Properties>
         <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
-        <Property name="APP_LOG_ROOT">C:\Users\mamou\Documents\formations\spring_partie_3\aop\src\main\resources</Property>
+        <Property name="APP_LOG_ROOT">
+            C:\Users\A148595\IdeaProjects\tarik-mamou-formation_spring_5_partie_3\aop</Property>
     </Properties>
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT" follow="true">
