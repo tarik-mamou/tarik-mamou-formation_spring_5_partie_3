@@ -19,3 +19,7 @@
 /spring-test/target/test-classes/test/TestAvecMocks.class
 /spring-test/target/test-classes/test/TestEnSpring.class
 /spring-test/target/spring-test-1.0-SNAPSHOT.jar
+/aop/target/maven-archiver/pom.properties
+/aop/target/aop-1.0-SNAPSHOT.jar
+/spring-test/target/surefire-reports/test.TestAvecMocks.txt
+/spring-test/target/surefire-reports/TEST-test.TestAvecMocks.xml
