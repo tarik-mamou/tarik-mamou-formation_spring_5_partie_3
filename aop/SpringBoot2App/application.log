@@ -14,3 +14,19 @@
 2021-09-06T15:37:50.217+0200 INFO appel de la methode genererFacture
 2021-09-06T15:37:50.219+0200 INFO dans AroundAdvice  apres appel methode
 2021-09-06T15:37:50.219+0200 INFO retour de l appel : la facture contient [boissons , desseret, repas] la somme est :40
+2021-09-10T09:20:50.052+0200 INFO demarrage du service Additioneur
+2021-09-10T09:20:50.100+0200 INFO demarrage du service Facture
+2021-09-10T09:20:50.156+0200 INFO demarrage du service Additioneur
+2021-09-10T09:20:50.174+0200 INFO dans AroundAdvice  avant appel methode
+2021-09-10T09:20:50.175+0200 INFO object courant aop.Facture{date=Fri Sep 10 09:20:50 CEST 2021}
+2021-09-10T09:20:50.177+0200 INFO methode courante void aop.Facture.setConsommation(Map)
+2021-09-10T09:20:50.177+0200 INFO parametres methode  courante [Ljava.lang.Object;@1cdc4c27
+2021-09-10T09:20:50.186+0200 INFO dans AroundAdvice  apres appel methode
+2021-09-10T09:20:50.187+0200 INFO retour de l appel : null
+2021-09-10T09:20:50.187+0200 INFO dans AroundAdvice  avant appel methode
+2021-09-10T09:20:50.187+0200 INFO object courant aop.Facture{date=Fri Sep 10 09:20:50 CEST 2021}
+2021-09-10T09:20:50.188+0200 INFO methode courante String aop.Facture.genererFacture()
+2021-09-10T09:20:50.188+0200 INFO parametres methode  courante [Ljava.lang.Object;@1b73be9f
+2021-09-10T09:20:50.188+0200 INFO appel de la methode genererFacture
+2021-09-10T09:20:50.191+0200 INFO dans AroundAdvice  apres appel methode
+2021-09-10T09:20:50.191+0200 INFO retour de l appel : la facture contient [boissons , desseret, repas] la somme est :40

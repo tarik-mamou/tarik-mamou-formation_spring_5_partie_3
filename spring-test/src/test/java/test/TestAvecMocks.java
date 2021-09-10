@@ -14,6 +14,9 @@ import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.util.ReflectionTestUtils;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import static org.mockito.ArgumentMatchers.*;
 
 @ContextConfiguration(classes = {ConfigurationApplication.class})
@@ -40,6 +43,11 @@ public class TestAvecMocks {
 
     @Test
     public void test() {
+        Map<String, Integer> consommation = new HashMap<>();
+        consommation.put("boissons ", 10);
+        consommation.put("repas", 20);
+        consommation.put("desseret", 10);
+        facture.setConsommation(consommation);
 
         System.out.println(facture.genererFacture());
         System.out.println(facture);

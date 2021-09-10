@@ -30,14 +30,19 @@ public class TestEnSpring {
 
     @Test
     public void test() {
-        Additioneur additioneur1 = new Additioneur();
+
 
         int a = 5;
         int b = 10;
         int resultatAttendu = 15;
         Additioneur additioneur = new Additioneur();
+
+
         int result = additioneur.additioner(a, b);
+
         Assert.assertEquals(resultatAttendu, result);
+
+
 
     }
 
